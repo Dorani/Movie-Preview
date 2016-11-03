@@ -3,3 +3,6 @@ var mangoose = require('mongoose');
 var bodyParser = require('body-parser')
 var methodOverride = require('method-override');
 var _ = require('lodash');
+
+ var app = express();
+ 
