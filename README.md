@@ -36,3 +36,11 @@ Total separation with API server and Angular JS front-end
 
 ## Create the application
  - var app = express();
+
+## Create Middleware
+- intercept the request
+ - bodyParser
+ - json for json API
+ - http method allows us to use put
+
+## Connect to Mongo database
