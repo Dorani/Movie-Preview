@@ -6,6 +6,7 @@ An application with full CRUD capabilities
 Total separation with API server and Angular JS front-end
 
 ## Getting Started
+ - install Xcode from the app store + can not install node and Homebrew w/o it
  - install Homebrew
  - install Nodejs
  - install MongoDB
