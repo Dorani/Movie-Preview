@@ -5,4 +5,8 @@ var methodOverride = require('method-override');
 var _ = require('lodash');
 
  var app = express();
- 
+
+ //Add Middleware for REST API's
+ app.use(bodyParser.urlencoded({extended: true}));
+ app.use(bodyParser.json());
+ app.use(methodOverride('X-HTTP-Method-Override'));
