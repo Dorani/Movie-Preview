@@ -44,3 +44,7 @@ Total separation with API server and Angular JS front-end
  - http method allows us to use put
 
 ## Connect to Mongo database
+ - run mongod
+ - connect, locally hosted, name databse
+ - listen to the port, and console log to show you are listening
+ - run server, localhost 3000
